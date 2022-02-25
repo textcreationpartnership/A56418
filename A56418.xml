@@ -1,0 +1,324 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>The Parliament mended or ended, or, A philter and halter for the two Houses prescribed by their Doctor Mercurius Elenticus.</title>
+            <author>Mercurius Elenticus.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1648</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 13 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A56418</idno>
+            <idno type="STC">Wing P504</idno>
+            <idno type="STC">ESTC R6791</idno>
+            <idno type="EEBO-CITATION">12801178</idno>
+            <idno type="OCLC">ocm 12801178</idno>
+            <idno type="VID">94056</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A56418)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 94056)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 725:24)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>The Parliament mended or ended, or, A philter and halter for the two Houses prescribed by their Doctor Mercurius Elenticus.</title>
+                  <author>Mercurius Elenticus.</author>
+               </titleStmt>
+               <extent>[2], 6 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed at the signe of the Traytors head, and are to be sold right over against the House of Commons,</publisher>
+                  <pubPlace>Westminster (London) :</pubPlace>
+                  <date>1648.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>A royalist tract urging the restoration of Charles I and the sitting of a new Parliament.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>England and Wales. --  Parliament.</term>
+               <term>Great Britain --  History --  Civil War, 1642-1649.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-04</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-05</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-05</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:94056:1" rendition="simple:additions"/>
+            <p>THE PARLIAMENT MENDED, OR ENDED; OR, A Philter and halter for the two Houſes.</p>
+            <p>PRESCRIBED By their Doctor <hi>Mercurius Elenticus.</hi>
+            </p>
+            <lg>
+               <head>The Doctors Profeſſion.</head>
+               <l>Here's a Drinke, ſo Soveraigne,</l>
+               <l>'Twill helps us to a King againe:</l>
+               <l>Here's a Cordiall of ſuch force,</l>
+               <l>It rootes the Army, Foot and Horſe.</l>
+               <l>And here's a Caudell, out of pitty</l>
+               <l>For the fam'd Cuckolds of the City.</l>
+               <l>Here's a Vomit, I pr<gap reason="illegible" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ferre</l>
+               <l>To the bloody crew at <hi>Weſtminſter:</hi>
+               </l>
+               <l>Take it, ſince J ſo freely give yee,</l>
+               <l>'Twill make you once more fill your Privy:</l>
+               <l>You are not ſqueamiſh I ſuppoſe</l>
+               <l>VVhen I remember <hi>Atkins</hi> hoſe:</l>
+               <l>Bee not angry at my tricks,</l>
+               <l>You know wee are all Empericks.</l>
+            </lg>
+            <p>WESTMINSTER, Printed at the ſigne of the Traytors head, and are to be ſold right over againſt the Houſe of Commons. 1648.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:94056:2"/>
+            <pb n="1" facs="tcp:94056:2"/>
+            <head>THE PARLIAMENT MENDED, or Ended, &amp;c.</head>
+            <epigraph>
+               <q>
+                  <lg>
+                     <l>Nought can let out your rancour-vile, but ſteele and Cupping glaſſes</l>
+                     <l>Yee moſt degener<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>ted crew, made up of Knaves and Aſſes:</l>
+                     <l>The Sword which you have temper'd, to deſtroy</l>
+                     <l>Our <hi>King</hi> and <hi>Church,</hi> will prove your owne anoy:</l>
+                     <l>And 'tis but Juſtice of high heaven,</l>
+                     <l>You to your Foes, a prey are given:</l>
+                     <l>You were our <hi>Fate,</hi>
+                     </l>
+                     <l>But must not bee our <hi>State.</hi>
+                     </l>
+                     <l>
+                        <hi>Where the Word of a King is, there is Power, and, who ſhall ſay, What doſt thou.</hi>
+                     </l>
+                  </lg>
+                  <lg>
+                     <l>Now ſtruggle Trayters, 'tis in vaine, to hope to ſway yet longer,</l>
+                     <l>The <hi>Devill</hi> is ti'de up. GOD, will bee ſtronger:</l>
+                     <l>Your ruine, is inevitable yet</l>
+                     <l>You dare not your owne fear's before you ſet,</l>
+                     <l>Then fall together; If you live we dye,</l>
+                     <l>If you our <hi>States,</hi> then farewell <hi>Monarchy.</hi>
+                     </l>
+                     <l>Yet ſeaven Weekes, and wee</l>
+                     <l>Shall your Deſtruction ſee.</l>
+                     <l>
+                        <hi>Where the Word of a King is, there is Power, and, who ſhall ſay, What doſt thou.</hi>
+                     </l>
+                  </lg>
+               </q>
+            </epigraph>
+            <div type="part">
+               <p>HAving been a Practitioner in the Art of <hi>Phyſick</hi> theſe many yeares in the <hi>Lo<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Countri<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s,</hi> where I have approved my skill, for the curing of <hi>Apoplexies,
+<pb n="2" facs="tcp:94056:3"/>
+Feav<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rs, Aches, V<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rdigo's, Gangrenas, Spleenitick</hi> peo<g ref="char:EOLhyphen"/>ple and Madneſſe, with very good approbation, and for<g ref="char:EOLhyphen"/>tunate ſucceſſe, I reſolved no longer to hide my ſelfe from my native Country, but to returne into <hi>England,</hi> that ſo my own people might be the better for me the reſidue of my yeares; but now being arived I cannot but ſtand amazed, and as if I had beheld another <hi>Gorgonhead</hi> mee thinks I am converted into ſtone, for the face of things here are ſo changed, ſince the time I ſet forward for my travaile, that mee thinks, it is no more like the Garden of the world (once worthily called ſo) then the <hi>Theſſalian hils</hi> are compared with <hi>Temp<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>;</hi> ſure ſome <hi>Circe</hi> hath taken up her abode here, and practiſeth her metamorphoſing Charmes, for I incounter with none but beaſts, men (I ſuppoſe when I left them) and now I cannot but curſe my ſelfe that ever I paſſed the Seas hither where I am like to ſtarve for want of practiſe, ſince the minds of the men of this <hi>Climate have need</hi> of <hi>cure and</hi> not their bodies, <hi>Paracelſus, Dio<g ref="char:EOLhyphen"/>ſcorides, Galen,</hi> yea or the Inventer of Phyſick <hi>Aeſ<g ref="char:EOLhyphen"/>culapius,</hi> might ſit here and practiſe upon them<g ref="char:EOLhyphen"/>ſelves; but ſince it is my ill hap to be here now, and that I cannot evade it, I have be thought my ſelfe of a way, at leaſt to vanquiſh hunger, I perceive the vulgar, are ge<g ref="char:EOLhyphen"/>nerally Infected, and deſperately overrun with a <note n="*" place="margin">Diſeaſe called Par<g ref="char:EOLhyphen"/>liament,</note> diſ<g ref="char:EOLhyphen"/>ſeaſe never heard of til the yeare 1641; and therfore I ſhal make ſemblance to have skill both in the original of the cauſe &amp; the taking away the effects, <hi>Iack pud<g ref="char:EOLhyphen"/>ding.</hi>
+               </p>
+               <sp>
+                  <speaker>Pudding.</speaker>
+                  <p>Here Sr, O maſter would I were amongſt the <hi>butter<g ref="char:EOLhyphen"/>boxes,</hi> again, the faire haired <hi>Flemings,</hi> here you are like to get nothing by your skill, nor by any tricks.</p>
+               </sp>
+               <sp>
+                  <speaker>Dr.</speaker>
+                  <p>Never feare <hi>Iack</hi> I ſhal get <hi>wealth,</hi> and <hi>fame</hi> to boot
+<pb n="3" facs="tcp:94056:3"/>
+and for that purpoſe I will have a ſtage erected by <hi>Cha<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                        <g ref="char:EOLhyphen"/>ing Croſſe,</hi> on which I wil divulge my skill unto al paſſers by, get thou the copies of theſe bills ſpeedily printed, that performed, clap them up in every corner of the Citie, and in the moſt open places of the ſuburbs, the firſt medecine I undertake to heale with, is called.</p>
+                  <p>
+                     <hi>A Soveraign drinke, which whoſoever ſhall taſt but ſix ſpoonefuls of it, brings into a Loyall temper, and diſcovers unto him the goodneſſe and excellencies of his King.</hi>
+                  </p>
+               </sp>
+               <div type="section">
+                  <head>The Receit.</head>
+                  <p>Let him take three Spoonefuls of the excellent juice, extracted from the famous hearb, ſo much lauded in ſcrip<g ref="char:EOLhyphen"/>ture called <hi>Loyaltie,</hi> with a good quantitie of the root of the hearb Grace, and thereto an handfull of <hi>obedience,</hi> aſmuch <hi>Chriſtian pittie,</hi> and true <hi>Faith,</hi> with a doſe of <hi>humilitie;</hi> mix all theſe together and boile them over the ſoft fire of <hi>Zeale according to Knowledge,</hi> in an equi<g ref="char:EOLhyphen"/>volent Number of teares taken from the cleare fountaine of a repentant heart, and let all boile till they bee coagu<g ref="char:EOLhyphen"/>lated and then take, and keepe.</p>
+               </div>
+            </div>
+            <div type="part">
+               <head>A purge peculiarly to be adminiſtred to the members of the Iunto, and preſcribed onely for them and their uſe.</head>
+               <p>For that the <hi>Junto,</hi> have this ſeaven yeares confined, themſelves to one place, &amp; have not taken their progreſſe into the country thereby to refreſh their ever working and troubled ſpirits, with the odoriferous, &amp; ſweet ſmel<g ref="char:EOLhyphen"/>ling ayre and withall have been ſo unprofident and care<g ref="char:EOLhyphen"/>leſſe of their own health, as to ſuffer a large and noiſome <hi>Privie</hi> to have it evacuation, nearly under their noſtrills: I have therefore being very Zealous of their preſerva<g ref="char:EOLhyphen"/>tion, and how corrupt their bodies are even almoſt as fowle as their <hi>Soules,</hi> have deviſed them this thorow Pur<g ref="char:EOLhyphen"/>gation, which I am certaine if timely taken, will bee for their exceeding profit.</p>
+               <div type="section">
+                  <pb n="4" facs="tcp:94056:4"/>
+                  <head>The Receit.</head>
+                  <p>Let them take twelve ounces of <hi>Loyaltie,</hi> a Vegitable to be found in each corner of the pleaſant Garden, called the <hi>word of God,</hi> with a good quantity of <hi>Order</hi> and <hi>Diſ<g ref="char:EOLhyphen"/>cipline,</hi> with as much of <hi>Law</hi> and <hi>
+                        <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>uſtice;</hi> a pound of <hi>Peni<g ref="char:EOLhyphen"/>tence,</hi> with <hi>Competency,</hi> of the antient <hi>Religious practiſes;</hi> mix all theſe together, with a hand not ſpotted with <hi>Re<g ref="char:EOLhyphen"/>bellion, murthers, oppreſſions, cruelties,</hi> and <hi>Impieties,</hi> and boyle them in a Caldron filled with their own <hi>teares of Contrition,</hi> and then it being gathered to a jelly, box it up, and preſerve it for your uſe; this receipt will without faile, reſtore you to your firſt and priſtine <hi>Purity;</hi> and you may yet be called a <hi>Parliament.</hi>
+                  </p>
+               </div>
+               <div type="section">
+                  <head>Another receit in caſe the other faile.</head>
+                  <p>Take each of you a good <hi>hempen halter</hi> ſtrongly and ſurely twiſted (and each of you after you haue well dined (<hi>For it is not good to goo to hell with an emptie ſtomack</hi>) adorn each of your thick necks with the aforeſaid Brace<g ref="char:EOLhyphen"/>lets, that done you that have a mind to ſtep into <hi>Cha<g ref="char:EOLhyphen"/>rons boat</hi> unſeene, and have ſtudies repleniſhed with books onely for faſhion ſake, enter into them, and there caſting up your eyes ſearch out the moſt conveniently exalted beame, to which by the ayd of a <hi>joint ſtool<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>,</hi> faſten your <hi>hempen jnſtrument,</hi> and having performed theſe neceſſary ceremonies <hi>without praying to God, who abhorres you, or cal<g ref="char:EOLhyphen"/>ling on the Devill, who longs to embrace you,</hi> put your ſelves to the mercy of the throtle, and without faile it wil prove your perfect cure, <hi>Probatum eſt.</hi>
+                  </p>
+               </div>
+               <div type="section">
+                  <head>Another.</head>
+                  <p>But if it ſhall ſo happen (as in all probabilitie it may) that you ſhall be out of conceit with ſuch a ſpeedy cure, alledging that becauſe your charitie forbids you to take the <hi>Executioners</hi> trad e from him, who hath theſe many years ſo we I thriven under you, take another more-Gentleman like preſcription.</p>
+                  <p>
+                     <pb n="5" facs="tcp:94056:4"/>Take each of you an ounce of <hi>white Mercury,</hi> as much <hi>Aqua fortis,</hi> halfe an ounce of <hi>Stibium,</hi> boile all theſe to<g ref="char:EOLhyphen"/>gether in an <hi>Aſses hoofe</hi> (for it is as ſpeedie and dangerous as ever was the <hi>Centaurs blood,</hi> the terror of the great <hi>Al<g ref="char:EOLhyphen"/>cides</hi>) till it ſhall be commixt into one jelly, then each of you ſhare as much of it as will cover a ſixpence, and mingle it with your uſuall beveridge, and take the opi<g ref="char:EOLhyphen"/>nion of the <hi>Horſe Doctor</hi> it wil couzen you of your <hi>leaprous ſoules</hi> &amp; in as ſmal a time as you may be voting no <hi>fur<g ref="char:EOLhyphen"/>ther addreſses to the King,</hi> that a <hi>Declaration</hi> bee drawne up againſt him, taxing him for <hi>murthering</hi> his <hi>Father,</hi> or while you may vote a whole Countie out of their <hi>lives</hi> and <hi>Eſtates,</hi> but if this faile or that you are yet reſolved to hold up your houſe, till your fingers are chopt of, hear<g ref="char:EOLhyphen"/>ken to your <hi>Doome.</hi>
+                  </p>
+                  <lg>
+                     <head>The Doctors Doome, upon the Rebellious Iunt<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>.</head>
+                     <l>Fatall Iuno, is neare unto you</l>
+                     <l>The ſtarres conſpire, for to undo<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap> you:</l>
+                     <l>Grim Saturne laughs, the other ſix</l>
+                     <l>Have ſet a period to your tricks.</l>
+                     <l>Mercury waiteth with his rod</l>
+                     <l>To waft you to the Stygian God:</l>
+                     <l>Iove whoſe great Acts, the Poets ſing,</l>
+                     <l>Hath paſt his Vote, to have a King.</l>
+                     <l>Tritonia waites to ſee you drop</l>
+                     <l>Er' ſhee aſcend to Latin<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>s <gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>op.</l>
+                     <l>Onely the Cyprian Queene is ſad</l>
+                     <l>And is in ſable veſtments clad,</l>
+                     <l>All ſorrowfull, for why by you</l>
+                     <l>Whores thriv'd and Cockoldry was due.</l>
+                     <l>Mars, is Armed cap-a-pe,</l>
+                     <l>For to bring in your deſtiny.</l>
+                     <l>Appollo gyrt with bea<gap reason="illegible" extent="2 letters">
+                           <desc>••</desc>
+                        </gap>s about,</l>
+                     <l>Hath ſent the fell Erinnis out.</l>
+                  </lg>
+                  <lg>
+                     <head>The IUNTOS, Diſtraction.</head>
+                     <l>See how their colours come and go<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>
+                     </l>
+                     <l>Behold their toſſing to and fro,</l>
+                     <l>Their ſmotherd ſighes<g ref="char:punc">▪</g> and large complaints,</l>
+                     <l>Their Beaſtly Rage, and ſhameleſ<gap reason="illegible" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>e <gap reason="illegible" extent="1 word">
+                           <desc>〈◊〉</desc>
+                        </gap>
+                     </l>
+                     <l>
+                        <pb n="6" facs="tcp:94056:5" rendition="simple:additions"/>How pale they looke, and how forlorn</l>
+                     <l>Their bodies, into ſhadowes worn;</l>
+                     <l>Their trepidations, and their teares,</l>
+                     <l>To theſe adde their infernall fears.</l>
+                     <l>Yee The ſpain ſiſters, now rejoyce</l>
+                     <l>And lift up your exalted voice,</l>
+                     <l>Clio, doe thou in Hiſtorie</l>
+                     <l>For aye, write downe their infamie.</l>
+                     <l>In ſuch an high and haughty tone</l>
+                     <l>All may abhorre Rebellion.</l>
+                  </lg>
+               </div>
+            </div>
+            <div type="part">
+               <p>Thus have I preſcribed, two never failing <hi>Purgations;</hi> very meet to bee uſed by our Honourable <hi>Iunto,</hi> and which I am cer<g ref="char:EOLhyphen"/>taine will endubitably, cure them of their <hi>feares,</hi> and the king<g ref="char:EOLhyphen"/>dome of their <hi>Ague fits,</hi> and now becauſe the whole Nation are deſperately ſick of this cruel killing diſſeaſe<g ref="char:punc">▪</g> called <hi>Parliament,</hi> I ſhall out of meere pittie and compaſſion to my languiſhing Countrimen, preſcribe them this medicine then which none can afford them ſpeedie and ſafe cure.</p>
+               <div type="section">
+                  <head>The Receit.</head>
+                  <p>With ſpeed draw your ſelves into one body of defence of your <hi>Rellgion,</hi> your <hi>King,</hi> and your <hi>Lawes,</hi> conjure all your fellow Commoners to riſe as one man, which done, and you in warlike equipage, let <hi>Surrey</hi> men be your preſident, and Declare <hi>that you are loſt, if there be not an OLD KING</hi> and <hi>a NEW PAR<g ref="char:EOLhyphen"/>LIAMENT;</hi> draw up a <hi>Declaration,</hi> which may informe the world how your <hi>King</hi> hath been dethroned and <hi>Impriſoned,</hi> your <hi>Church</hi> Demoliſhed and devaſted, your Parſon <hi>Murthered</hi> and your <hi>Eſtates Sequeſtred<g ref="char:punc">▪</g>
+                     </hi> your <hi>Lawes</hi> perverted, and vacated, by theſe who at the firſt pretended to bee <hi>Reformers,</hi> and <hi>Pa<g ref="char:EOLhyphen"/>triots,</hi> then reinthrone your <hi>King</hi> ſtand by him till he call a <hi>Par<g ref="char:EOLhyphen"/>liament,</hi> of knowing (but unbiaſſed men) See the Fathers, I meane the <hi>Reverend Biſhops</hi> of the <hi>Church</hi> replaced in their former <hi>Sees</hi> and lay not down your ſwords till this late curſed <hi>Rebellion,</hi> hath been puniſhed, and all things to their firſt puritie reſtored.</p>
+               </div>
+            </div>
+            <epigraph>
+               <q>
+                  <l>This is your cure, and only this,</l>
+                  <l>Can bring you to your former bliſſe:</l>
+                  <l>This if you neglect to doe:</l>
+                  <l>All good forever bid adu<gap reason="illegible" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>:</l>
+                  <l>Your baſeneſſe, o're the world will Ring;</l>
+                  <l>Without a God, without a King:</l>
+               </q>
+            </epigraph>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
